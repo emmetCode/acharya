@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganesh Acharya — Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="apple-touch-icon" href="./icon_512.png" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Social thumbnail -->
+    <meta property="og:image" content="./og_thumbnail.png" />
+    <meta property="og:title" content="Ganesh Acharya — Web Developer" />
+    <meta
+      property="og:description"
+      content="I build things for the web — from fast, functional interfaces to full-stack applications."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="./og_thumbnail.png" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <a href="#hero" class="nav-name">Ganesh Acharya</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-inner">
+        <div class="hero-tag fade-up">Based in Nepal</div>
+        <h1 class="fade-up delay-1">
+          Web Developer<br /><em>&amp; Craftsman</em>
+        </h1>
+        <p class="hero-bio fade-up delay-2">
+          I build things for the web — from fast, functional interfaces to
+          full-stack applications. I care about details, clean code, and never
+          stopping learning.
+        </p>
+        <div class="hero-actions fade-up delay-3">
+          <a href="#projects" class="btn btn-primary">View Work ↓</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <div class="hero-stack fade-up delay-4">
+          <span class="stack-pill">React</span>
+          <span class="stack-pill">JavaScript</span>
+          <span class="stack-pill">PHP</span>
+          <span class="stack-pill">Laravel</span>
+          <span class="stack-pill">Node.js</span>
+          <span class="stack-pill">MongoDB</span>
+          <span class="stack-pill">Bootstrap</span>
+          <span class="stack-pill">Tailwind</span>
+          <span class="stack-pill">RAG Systems</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-inner">
+        <div class="section-label">Work</div>
+        <h2>Selected Projects</h2>
+        <p class="section-sub">
+          Things I've built — from tribute sites to AI systems.
+        </p>
+
+        <div class="projects-grid">
+          <a
+            href="https://nakshhatra.netlify.app/"
+            target="_blank"
+            rel="noopener"
+            class="project-card featured"
+          >
+            <div class="project-thumb-placeholder">
+              <img
+                src="./nakshatra.png"
+                alt="Nakshhatra"
+                style="height: 100%; width: 100%; object-fit: cover"
+              />
+            </div>
+            <div>
+              <div class="project-type">Astrology · Web App</div>
+              <div class="project-title">नक्षत्र — Nakshhatra</div>
+            </div>
+            <p class="project-desc">
+              A Nepali astrological web application featuring Panchanga viewing
+              across many years past and present, and an Ashtakuta Vadhu–Var
+              Milan chakra complete with Nadi Guna Milan compatibility analysis.
+            </p>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Astrology</span>
+                <span class="project-tag">Nepali Calendar</span>
+              </div>
+              <div class="project-link-icon">↗</div>
+            </div>
+          </a>
+
+          <a
+            href="https://tonikr8s.netlify.app/"
+            target="_blank"
+            rel="noopener"
+            class="project-card"
+          >
+            <div class="project-thumb-placeholder">
+              <img
+                src="./toni.png"
+                alt="Toni Kroos"
+                style="height: 100%; width: 100%; object-fit: cover"
+              />
+            </div>
+            <div>
+              <div class="project-type">Tribute · Frontend</div>
+              <div class="project-title">Toni Kroos — The Perfectionist</div>
+            </div>
+            <p class="project-desc">
+              A dedicated website celebrating the career and achievements of
+              Toni Kroos. Showcasing his legacy through thoughtful design and
+              storytelling.
+            </p>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JS</span>
+              </div>
+              <div class="project-link-icon">↗</div>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/AnjanG7/EMMET-RAG"
+            target="_blank"
+            rel="noopener"
+            class="project-card"
+          >
+            <div class="project-thumb-placeholder">
+              <img
+                src="./RAG.png"
+                alt="EMMET RAG System"
+                style="height: 100%; width: 100%; object-fit: cover"
+              />
+            </div>
+            <div>
+              <div class="project-type">AI · SaaS · Backend</div>
+              <div class="project-title">EMMET RAG System</div>
+            </div>
+            <p class="project-desc">
+              A multi-tenant SaaS-based Retrieval-Augmented Generation system.
+              Played a major role in designing and shipping this production AI
+              pipeline for document-grounded Q&amp;A.
+            </p>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="project-tag">RAG</span>
+                <span class="project-tag">LLM</span>
+                <span class="project-tag">SaaS</span>
+                <span class="project-tag">Multi-tenant</span>
+              </div>
+              <div class="project-link-icon">↗</div>
+            </div>
+          </a>
+
+          <a href="#" class="project-card">
+            <div class="project-thumb-placeholder">
+              <img
+                src="./ocr.png"
+                alt="OCR — Tesseract.js"
+                style="height: 100%; width: 100%; object-fit: cover"
+              />
+            </div>
+            <div>
+              <div class="project-type">Browser · Tool</div>
+              <div class="project-title">OCR — Tesseract.js</div>
+            </div>
+            <p class="project-desc">
+              A browser-based Optical Character Recognition tool powered by
+              Tesseract.js. Extracts text from images entirely client-side, no
+              backend required.
+            </p>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="project-tag">Tesseract.js</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">OCR</span>
+              </div>
+              <div class="project-link-icon">↗</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="templates-row">
+          <div class="templates-label">
+            UI Templates &amp; Learning Projects
+          </div>
+          <div class="templates-list">
+            <a
+              href="https://emmetcode.github.io/lintense/"
+              target="_blank"
+              rel="noopener"
+              class="template-item"
+            >
+              Lintense
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a
+              href="https://emmetcode.github.io/backpack/"
+              target="_blank"
+              rel="noopener"
+              class="template-item"
+            >
+              Backpack Story
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a
+              href="https://emmetcode.github.io/wonderTravel/"
+              target="_blank"
+              rel="noopener"
+              class="template-item"
+            >
+              Wonder Travel
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a
+              href="https://emmetcode.github.io/redStore/"
+              target="_blank"
+              rel="noopener"
+              class="template-item"
+            >
+              Red Store
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-viewport">
+      <div class="marquee-track">
+        <!-- Original set (8 items) -->
+        <div class="marquee-item"><img src="./car2.png" alt="UI 2" /></div>
+        <div class="marquee-item"><img src="./car3.png" alt="UI 3" /></div>
+        <div class="marquee-item"><img src="./car4.png" alt="UI 4" /></div>
+        <div class="marquee-item"><img src="./car5.png" alt="UI 5" /></div>
+        <div class="marquee-item"><img src="./car6.png" alt="UI 6" /></div>
+        <div class="marquee-item"><img src="./car7.png" alt="UI 7" /></div>
+        <div class="marquee-item"><img src="./car3.png" alt="UI 3b" /></div>
+        <div class="marquee-item"><img src="./car101.png" alt="UI 101" /></div>
+        <!-- Exact clone set for seamless loop -->
+        <div class="marquee-item"><img src="./car2.png" alt="UI 2" /></div>
+        <div class="marquee-item"><img src="./car3.png" alt="UI 3" /></div>
+        <div class="marquee-item"><img src="./car4.png" alt="UI 4" /></div>
+        <div class="marquee-item"><img src="./car5.png" alt="UI 5" /></div>
+        <div class="marquee-item"><img src="./car6.png" alt="UI 6" /></div>
+        <div class="marquee-item"><img src="./car7.png" alt="UI 7" /></div>
+        <div class="marquee-item"><img src="./car3.png" alt="UI 3b" /></div>
+        <div class="marquee-item"><img src="./car101.png" alt="UI 101" /></div>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-inner">
+        <div class="section-label">Expertise</div>
+        <h2>What I work with</h2>
+        <p class="section-sub">
+          Technologies and tools I reach for to get things built.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-cell">
+            <div class="skill-name">React</div>
+            <div class="skill-desc">
+              Component-driven UIs and single-page applications at any scale.
+            </div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-desc">
+              The behavior layer — from vanilla DOM manipulation to modern
+              ES2024.
+            </div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-name">PHP &amp; Laravel</div>
+            <div class="skill-desc">
+              Server-side logic, APIs, and full MVC applications.
+            </div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-name">Node.js</div>
+            <div class="skill-desc">
+              Scalable server-side JavaScript — REST APIs, real-time apps, and
+              backend services.
+            </div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-name">MongoDB</div>
+            <div class="skill-desc">
+              Flexible document storage for modern, data-driven applications.
+            </div>
+          </div>
+          <div class="skill-cell">
+            <div class="skill-name">Bootstrap &amp; Tailwind</div>
+            <div class="skill-desc">
+              Utility-first and component frameworks for rapid production UI.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-inner">
+        <div class="section-label">Contact</div>
+        <h2>Let's talk</h2>
+        <p class="section-sub">
+          Available for freelance work, collaborations, or just a conversation.
+          Pick a channel below.
+        </p>
+
+        <div class="contact-grid">
+          <a
+            href="https://github.com/emmetCode"
+            target="_blank"
+            rel="noopener"
+            class="contact-card"
+          >
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                />
+              </svg>
+            </div>
+            <div class="contact-platform">GitHub</div>
+            <div class="contact-handle">emmetCode</div>
+          </a>
+
+          <a
+            href="https://www.facebook.com/acharyaGanesh8"
+            target="_blank"
+            rel="noopener"
+            class="contact-card"
+          >
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </div>
+            <div class="contact-platform">Facebook</div>
+            <div class="contact-handle">acharyaGanesh8</div>
+          </a>
+
+          <a
+            href="https://www.instagram.com/acharyaaganesh"
+            target="_blank"
+            rel="noopener"
+            class="contact-card"
+          >
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                />
+              </svg>
+            </div>
+            <div class="contact-platform">Instagram</div>
+            <div class="contact-handle">acharyaaganesh</div>
+          </a>
+        </div>
+
+        <div class="contact-grid-bottom">
+          <a
+            href="https://twitter.com/EnthstSp"
+            target="_blank"
+            rel="noopener"
+            class="contact-card"
+          >
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                />
+              </svg>
+            </div>
+            <div class="contact-platform">X / Twitter</div>
+            <div class="contact-handle">EnthstSp</div>
+          </a>
+
+          <a href="mailto:emmet.itc@gmail.com" class="contact-card">
+            <div class="contact-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+            </div>
+            <div class="contact-platform">Email</div>
+            <div class="contact-handle">emmet.itc@gmail.com</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Ganesh Acharya</p>
+      <p>Built with intention.</p>
+    </footer>
+  </body>
+</html>
